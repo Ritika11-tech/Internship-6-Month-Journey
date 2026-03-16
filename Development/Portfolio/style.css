@@ -3,6 +3,28 @@
     padding: 0;
    
 }
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    display:flex;
+    justify-content :space-between;
+    align-items: center;
+    padding:15px 40px;
+    color:white;
+    background:#1f2933;}
+
+    .nav-links{
+        display:flex;
+        list-style: none;
+        gap:30px;
+    }
+    .nav-links li a{
+        color:white;
+        text-decoration: none;
+        font-weight:bold;
+    }
+
 
 #port{
         margin-left:10px;
@@ -11,13 +33,25 @@
     display:flex;
   
     justify-content: left;
-    margin-top:55px;
+    margin-top:px;
     font-family:Georgia, 'Times New Roman', Times, serif;
       animation:slideleft 1s ease-in;
     color:rgb(20, 15, 15);
 
 }
-.first {
+
+.intro{
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+    
+}
+#fd{
+   margin-top: 0;
+   margin-left: 10px;
+}
+.first {    
      background-color: rgb(221, 233, 235);
      height: 205px;
     display: flex;
@@ -44,8 +78,9 @@ img{
     border-radius: 50%;
     height:180px;
     width:180px;
-    margin-left:5%;
+    padding:5px;
     object-fit: cover;
+
     
 
 }
@@ -53,10 +88,12 @@ img{
 .second{
      color:black;
      background-color:rgb(221, 233, 235);
-    height:20px;
+  
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
+   
+
+   
     
 
 }
@@ -98,4 +135,16 @@ li{
 
 .main:hover{
    color: rgb(44, 81, 88);
+}
+
+#project-cards{
+   background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+margin-bottom:30px;
+transition:0.3s;
+}
+.project-cards:hover{
+transform:translateY(-8px);
 }
