@@ -4,50 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ritika | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   </head>
   <body>
     <header>
-      <h1>Ritika's Portfolio</h1>
-      <p>
-        Hi, I'm Ritika 👋
-        <br />
-        C++ & Data Structures Learner | Aspiring Software Developer<br />
-        <br />
-
-        Currently focused on building strong problem-solving skills through
-        daily DSA practice and structured learning. My goal is to become
-        internship-ready with solid programming fundamentals and consistent
-        coding discipline.
-      </p>
+     <div class="first">
+      <h1 id="port">Ritika's Portfolio</h1>
+      <img  src="1.jpeg"  alt="photo"> 
+      </div>
+      <div class="second">
+       <a href="tel:860714545443" style="color:black"><i class="fa-solid fa-phone"></i>8196048586</a>
+        <a href="mailto:ritikatina123@gmail.com" style="color:black"><i class="fa-solid fa-at"></i>ritikatina123@gmail.com</a>
+       <a href="https://github.com/Ritika11-tech" target="_blank" style="color:black"><i class="fa-brands fa-github"></i>https://github.com/Ritika11-tech </a>
+        <a href="https://www.linkedin.com/in/ritikacse/" target="_blank" style="color:black"><i class="fa-brands fa-linkedin"></i>https://www.linkedin.com/in/ritikacse/</a>
+      </div>
     </header>
-    <hr />
+   
     <main>
       <section>
-        <h2>About Me</h2>
+        <h2 id="About" class="main">About Me</h2>
         <p>
           I am a focused and disciplined learner currently strengthening my core
           programming fundamentals using C++ and Data Structures & Algorithms.
-        </p>
-        <p>
+      
           Instead of learning everything randomly, I am following a structured
           6-month preparation plan where I practice daily, push code
           consistently on GitHub, and improve my logical thinking step by step.
-        </p>
-        <p>
           My goal is to become internship-ready with strong problem-solving
           ability and clear understanding of core concepts.
         </p>
       </section>
-      <hr />
+   
       <section>
-        <h2>Skills</h2>
-
+        <h2 class="main">Skills</h2>
+        <div class="skill">
+             <ul>
+            
         <h3>Programming Languages:</h3>
-        <ul>
+     
           <li>C++</li>
+           <li>Html</li>
+           <li>CSS</li>
+           <li>JavaScript</li>
+           <li>React.js</li>
         </ul>
+        <div class="vl"></div>
+         <ul>
         <h3>Core Concepts:</h3>
-        <ul>
+       
           <li>Arrays</li>
           <li>Searching & Sorting</li>
           <li>(Learning Phase)</li>
@@ -55,53 +60,81 @@
           <li>Problem Solving</li>
           <li>Time & Space Complexity (Basics)</li>
         </ul>
+        <div class="vl"></div>
+         <ul>
         <h3>Tools & Platforms:</h3>
-        <ul>
+       
           <li>Git</li>
           <li>GitHub</li>
           <li>VS Code</li>
         </ul>
+        <div class="vl"></div>
+             <ul>
         <h3>Currently Learning:</h3>
-        <ul>
+   
           <li>Advanced Data Structures</li>
           <li>Clean Code Practices</li>
         </ul>
+        </div>
       </section>
-      <hr />
+   
       <section>
-        <h2>Projects</h2>
-        <p>
-          A structured repository where I solve Data Structures and Algorithms
-          problems daily.
-        </p>
-
-        <h4>Includes:</h4>
-        <ul>
-          <li>Array problems (Largest element, Reverse array, etc.)</li>
-          <li>Step-by-step logic implementation</li>
-          <li>Clean and readable C++ code</li>
-        </ul>
-        <h4>GitHub Repository:</h4>
-        <a
-          href="https://github.com/Ritika11-tech/Internship-6-Month-Journey"
-          target="_blank"
-          >https://github.com/Ritika11-tech/Internship-6-Month-Journey</a
-        >
+        <h2 class="main">Projects</h2>
+         <h2 class="main"
+         style="color: rgb(6, 75, 75); background-color: rgb(221, 233, 235) ;
+    display: inline ;padding:5px;border-radius: 10px;" >Typing Speed Tester:</h2>
+         <p>A web-based application that helps users measure and improve their typing speed and accuracy.</p>
+         <h4>Technologies Used:</h4>
+         <p>HTML, CSS, JavaScript</p>
+         <h4>Description:</h4>
+         <p><ul>
+          <li>Users can start a typing test that generates random sentences to type.</li>
+          <li>The application calculates the user's typing speed in words per minute (WPM) and accuracy percentage.</li>
+          <li>Provides feedback on errors and allows users to track their progress over time.</li>
+         </ul></p>
+        <h4>Project Link: <a href="https://github.com/Ritika11-tech/Typing-speed-Tester" target="_blank">https://github.com/Ritika11-tech/Typing-speed-Tester</a></h4>
+        <h3>Video Demo:</h3>
+       <video width="500" controls><source src="typing.mp4.mp4">Your browser does not support the video tag.</video>
+       <hr>
+       <h2 class="main"
+       style="color: rgb(6, 75, 75); background-color: rgb(221, 233, 235) ;
+    display: inline ;padding:5px;border-radius: 10px">True-Vision:</h2>
+       <p>A web application that uses computer vision to analyze images and provide insights.</p>
+        <h4>Technologies Used:</h4>
+        <p>HTML, CSS, JavaScript, OpenCV</p>
+        <h4>Description:</h4>   
+        <p><ul>
+          <li>Users can upload images to the application for analysis.</li>
+          <li>The application uses OpenCV to detect objects, faces, and other features in the images.</li>
+          <li>Provides insights and visualizations based on the analysis results.</li>
+         </ul></p>
+        <h4>Project Link: <a href="https://github.com/Ritika11-tech/True-Vision" target="_blank">https://github.com/Ritika11-tech/True-Vision</a></h4>
       </section>
     </main>
     <hr />
-    <footer>
-      <h2>Contact</h2>
+   
+        <h2 class="main"
+        style="color: rgb(6, 75, 75); background-color: rgb(221, 233, 235) ;
+    display: inline ;padding:5px;border-radius: 10px">Advanced Calculator</h2>
+        <p>A web-based calculator that provides advanced mathematical functions and a user-friendly interface.</p>
+        <h4>Technologies Used:</h4>
+        <p>HTML, CSS, JavaScript</p>  
+        <h4>Description:</h4>
+        <p><ul>
+          <li>Supports basic arithmetic operations (addition, subtraction, multiplication, division) as well as advanced functions (trigonometry, logarithms, exponentiation).</li>
+          <li>Features a clean and intuitive user interface for easy interaction.</li>
+          <li>Includes a history feature that allows users to review previous calculations.</li>
+         </ul></p>
+        <h4>Project Link: <a href="https://github.com/Ritika11-tech/Advanced-Calculator" target="_blank">https://github.com/Ritika11-tech/Advanced-Calculator</a></h4>
+        <h3>Video Demo:</h3>
+        <video width="500" controls><source src="calculator.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+         <footer>
+      <h2 class="main"
+      >Contact</h2>
       <p>
       Email:
       <a href="mailto:ritikatina123@gmail.com"> ritikatina123@gmail.com</a>
       </p>
-   
-      <p>
-      GitHub:
-      <a href="https://github.com/Ritika11-tech" target="_blank"
-        >https://github.com/Ritika11-tech</a>
-        </p>
     </footer>
   </body>
 </html>

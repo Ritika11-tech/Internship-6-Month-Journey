@@ -1,0 +1,101 @@
+*{
+    margin-left:2px;
+    padding: 0;
+   
+}
+
+#port{
+        margin-left:10px;
+     font-size:5vh;
+   
+    display:flex;
+  
+    justify-content: left;
+    margin-top:55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+      animation:slideleft 1s ease-in;
+    color:rgb(20, 15, 15);
+
+}
+.first {
+     background-color: rgb(221, 233, 235);
+     height: 205px;
+    display: flex;
+     flex-direction: row;
+    white-space: nowrap;
+
+
+}
+
+@keyframes slideleft {
+    from{
+        transition: translateX(-300px);
+        opacity: 0;
+        
+    }
+    To{
+       transition: translateX(0);
+        opacity: 1;
+      
+    
+    }
+}
+img{
+    border-radius: 50%;
+    height:180px;
+    width:180px;
+    margin-left:5%;
+    object-fit: cover;
+    
+
+}
+
+.second{
+     color:black;
+     background-color:rgb(221, 233, 235);
+    height:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+
+}
+
+#About{
+    margin-top: 3vh;
+    font-size: 4vh;
+}
+
+
+h2{
+    font-size: 4vh;
+    margin-top: 20px;
+}
+
+.skill{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.vl{
+    background-color: rgb(83, 85, 89);
+    width:2px;
+    height: 200px;
+}
+
+li{
+    font-size: 2vh;
+}
+#inc{
+   margin-top: 20px;
+}
+#in{
+    font-size: 2vh;
+    margin-top: 10px;
+}
+
+.main:hover{
+   color: rgb(44, 81, 88);
+}
