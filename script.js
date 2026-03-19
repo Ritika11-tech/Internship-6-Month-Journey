@@ -1,6 +1,6 @@
 
 const projectSection = document.querySelector("#projects");
-const typingCard = document.querySelector("#typing");
+const typingCard = document.querySelector("#typing").closest(".projects-card");
 const calculatorCard = document.querySelector("#ac");
 
 window.addEventListener("scroll", () => {

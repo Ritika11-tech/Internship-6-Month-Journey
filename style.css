@@ -76,19 +76,8 @@ html{
 
 }
 
-@keyframes slideleft {
-    from{
-        transition: translateX(-300px);
-        opacity: 0;
-        
-    }
-    To{
-       transition: translateX(0);
-        opacity: 1;
-      
-    
-    }
-}
+
+
 img{
     border-radius: 50%;
     height:180px;
@@ -216,7 +205,7 @@ a:hover{
 
 
 .show-left{
-  animation: 2s slides-in-left;
+  animation: slides-in-left 2s;
 }
 @keyframes slides-in-left{
   0%{
